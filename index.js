@@ -12,7 +12,7 @@ const mongoose =require('mongoose');
 
 
 
-// Connection to MongoDB
+// Connection to MongoDBheroku login
 mongoose.connect(process.env.DATABASE_URL ,{ useNewUrlParser:true});
 const db = mongoose.connection;
 db.on('error' ,error=> console.error(error))
