@@ -9,7 +9,7 @@ const expressLayouts = require('express-ejs-layouts');
 const app = express();
 const indexRouter = require('./routes/index');
 const mongoose =require('mongoose');
-
+const application = 5;
 
 
 // Connection to MongoDBheroku login
